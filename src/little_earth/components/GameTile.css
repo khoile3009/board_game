@@ -1,0 +1,38 @@
+.game-tile {
+    width: 120px;
+    height: 150px;
+    background-color: deeppink;
+    margin: 2px;
+}
+
+.hexagon {
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+}
+
+.null-tile {
+    visibility: hidden;
+}
+
+.mountain-tile {
+    background-color: powderblue;
+}
+
+.forest-tile {
+    background-color: forestgreen;
+}
+
+.farm-tile {
+    background-color: gold;
+}
+
+.wetland-tile {
+    background-color: saddlebrown;
+}
+
+.grassland-tile {
+    background-color: lawngreen;
+}
+
+.wetland-tile {
+    background-color: aqua;
+}
